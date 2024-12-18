@@ -1,0 +1,324 @@
+
+*{
+    box-sizing:border-box;
+} 
+body{
+    background: url();
+    background-size: cover;
+    font-family: arial;
+    color: #333;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* containe */
+.containe{
+    /* background: red; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    background:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+img{
+
+    width: 150%;
+    margin-top:0px;
+    margin-right: 80px;
+    height: 700px;
+    position:relative;
+}
+/* :focus{
+    outline: none;
+} */
+
+.wrapper{
+    background-color: rgb(131, 49, 163);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.inner{
+     position: relative; /*parport au text dans l'imag */
+    width:2000%;
+    height: 700px;
+    background:#FFF;
+    max-width: 950px;
+    margin: 50px;
+    display: flex;
+    border: 1px solid #333;
+    margin-left: 400px;
+    /* background-color: yellow; */
+    justify-content: center; 
+     margin: auto;
+   
+
+}
+.inner .image-holder{
+       width: 150%;
+       margin-top:0px;
+       margin-right: 80px;
+    /* background-color: palevioletred; */
+}
+
+.inner form{
+    background-color: #FFF;
+    width: 400%;
+    padding: 50%;
+    margin-left: 0px;
+    padding-top: 30px ;
+    padding-left: 50px;
+    padding-right : 100px;
+}
+
+
+.form-group {
+    display: flex;
+    gap: 5%;
+    font-size: 10PX;
+}
+
+.form-group input{
+    width: 50%;
+    background: #FFF;
+    border-radius: 50px #838080 ;
+    gap: 50px;
+    margin-bottom: 40px;
+    border-radius: 6%;
+}
+
+.form-group input:first-child{
+    margin-right: 25px;
+}
+
+.form-wrapper{
+    position: relative;
+}
+
+.form-control{
+    border: 1px solid #857b7b;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+button{
+    border: none;
+    width: 164px;
+    height: 51px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    background: #333;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.fa{
+    margin-left:400px;
+}
+
+.bnt-radio{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+}
+
+.skill-per{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 90%px;
+    border-radius: 6px;
+    background-color: green;
+    
+}
+.tooli{
+    position:absolute;
+    right: 14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: green;
+
+}
+.forum a{
+    padding-left: 200px;
+    padding-top: 200px;
+}
+ul,li{
+    padding-right: 100px;
+  
+}
+ul{
+    padding: 10px;
+}
+.image-holder{
+    background-color: green;
+}
+.skill-per{
+    background-color: rgb(50, 252, 50);
+    margin-top: 1px;
+}
+.skill-per span{
+    /* background-color: rgb(37, 182, 37); */
+    margin-bottom:100px;
+    padding-left: 50%;
+}
+/* type{
+      width: 300px;    
+} */
+.forum .bnt-radio{
+    border-collapse: collapse;
+    padding-top: 20px;
+    border-radius: 50px;   
+}
+.form-group label{
+    padding-right: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.bouton-sbmit  {
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+    gap: 10%;
+}
+.text{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(110, 77, 77, 0.2);
+}
+.progress-bar{
+   background:#837a7a;
+   width: 500px;
+   height: 10px ;
+   border-radius: 5px;
+ }
+ .progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+    background: rgb(79, 202, 106);
+ }
+ .progress-bar div span{
+    height: 40px;
+    width: 70px ;
+    border-radius: 5%;
+    background: rgb(79, 202, 106);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .Bnt button{
+    background-color: rgb(79, 202, 106);
+    color: #fff;
+    margin: 10px;
+    border-radius: 8%;
+    width: 100px;
+}
+.tonbou button{
+    border: 2px solid rgb(79, 202, 106);
+    background-color: #FFF;
+    color: #524f4f;
+    margin: 10px;
+    border-radius: 8%;
+    padding: 10px;
+    width: 100px;
+}
+.Bnt button ,.tonbou button{
+    margin-left: 200%;
+    margin-top: 80px;
+    gap: 50px;
+    
+}
+
+
+
+@media only  screen and (max-width: 768px) {
+
+    /* .containe{
+        min-height:0px;
+       
+    } */
+    
+    
+     .inner{
+         display: flex; 
+         flex-direction: column;
+         width:100%;
+         margin-left:55px;
+         margin-top:10px;
+         /* height:15px; */
+    } 
+    .inner form{
+        width: 240%;
+        padding:0px;
+        margin-top:60px;
+        margin-left:10px;
+       
+    }
+     .image-holder{
+        width:50%; 
+        margin-top:0px;
+        margin-right:10px; 
+        
+             
+    }
+
+    .inner .text{
+        margin-top:1px;
+        text-align: center;
+    }
+    .inner .image-holder{
+
+    }
+    form{
+       height:10px;
+       width: 100px;
+       /* margin-left:5px; */
+    }
+   
+    .form-group{
+        margin-top: 20px;
+        width: 97%;
+
+    }
+
+    .progress-bar{
+        margin-top:100px;
+
+    }
+} 
+
+    
